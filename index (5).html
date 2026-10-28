@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO: page title and meta description -->
+  <title>Santhiya | Full-Stack Developer (MERN Stack)</title>
+  <meta name="description" content="Portfolio of Santhiya, a MERN stack developer building responsive web applications with MongoDB, Express.js, React.js and Node.js.">
+  <meta name="author" content="Santhiya">
+  <meta name="theme-color" content="#0b0f19">
+
+  <!-- Fonts and icons (free) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Our own styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Keyboard users can jump straight to the content -->
+  <a href="#home" class="skip-link">Skip to content</a>
+
+  <!-- ===================== NAVIGATION BAR ===================== -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#home" class="logo" aria-label="Santhiya - back to top">SA<span>.</span></a>
+
+      <!-- Hamburger button for mobile -->
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <ul>
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===================== HERO / HOME ===================== -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1 class="hero-name">Santhiya</h1>
+          <h2 class="hero-role">Full-Stack Developer | MERN Stack</h2>
+          <p class="hero-intro">
+            I build responsive, user-focused web applications with MongoDB, Express.js,
+            React.js and Node.js. I use AI tools to speed up development and turn ideas
+            into practical, working software.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+
+          <!-- Social links. Links marked "placeholder-link" show a reminder until you add the real URL (see instructions). -->
+          <div class="social-links">
+            <a href="#" class="social-link placeholder-link" data-placeholder="[Add GitHub URL]" aria-label="GitHub profile (URL to be added)" title="GitHub">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="#" class="social-link placeholder-link" data-placeholder="[Add LinkedIn URL]" aria-label="LinkedIn profile (URL to be added)" title="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="social-link placeholder-link" data-placeholder="[Add LeetCode URL]" aria-label="LeetCode profile (URL to be added)" title="LeetCode">
+              <i class="fa-solid fa-code"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="avatar-frame">
+            <!-- [Add Profile Photo]
+                 To use a photo, replace the div below with:
+                 <img src="profile.jpg" alt="Santhiya, Full-Stack Developer" class="avatar-img"> -->
+            <div class="avatar-placeholder" aria-label="Profile photo placeholder">SA</div>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Scroll to About section">
+        <i class="fa-solid fa-chevron-down"></i>
+      </a>
+    </section>
+
+    <!-- ===================== ABOUT ME ===================== -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-number">01</span>
+          <h2>About Me</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I am a motivated MERN Stack Developer skilled in building responsive web
+              applications using MongoDB, Express.js, React.js and Node.js. I am familiar
+              with REST APIs, database management, authentication and full-stack development.
+            </p>
+            <p>
+              I use AI tools such as ChatGPT and Claude AI to accelerate development and improve
+              code quality. I am passionate about problem-solving, continuous learning and
+              building scalable, user-focused applications.
+            </p>
+            <p>
+              I completed a Software Development Internship at Equax Software Labs LLP,
+              Bangalore, and have delivered freelance full-stack projects deployed on Vercel and Render.
+            </p>
+          </div>
+
+          <ul class="info-list reveal">
+            <li><i class="fa-solid fa-location-dot"></i> Thoothukudi, Tamil Nadu, India</li>
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:santhiyalingam4@gmail.com">santhiyalingam4@gmail.com</a></li>
+            <li><i class="fa-solid fa-phone"></i> <a href="tel:+918667670512">+91 86676 70512</a></li>
+            <li><i class="fa-solid fa-briefcase"></i> Full-Stack Developer | MERN Stack</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section id="education" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-number">02</span>
+          <h2>Education</h2>
+        </div>
+
+        <div class="card-grid two-col">
+          <article class="card reveal">
+            <div class="card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+            <h3>B.Sc. Computer Science</h3>
+            <p class="card-subtitle">V O Chidambaram College, Thoothukudi</p>
+            <p class="meta">Jul 2022 – May 2025 &middot; Score: 82%</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><i class="fa-solid fa-book-open"></i></div>
+            <h3>Higher Secondary (Computer Science)</h3>
+            <p class="card-subtitle">Prasanna Matric Hr Sec School</p>
+            <p class="meta">Jun 2020 – Apr 2022 &middot; Score: 81%</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== TECHNICAL SKILLS ===================== -->
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-number">03</span>
+          <h2>Technical Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Each category is one card. To add a skill, add a <span class="badge"> inside the list. -->
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+            <div class="badges">
+              <span class="badge">Java</span>
+              <span class="badge">JavaScript</span>
+              <span class="badge">HTML5</span>
+              <span class="badge">CSS3</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-palette"></i> Frontend</h3>
+            <div class="badges">
+              <span class="badge">React.js</span>
+              <span class="badge">Responsive Web Design</span>
+              <span class="badge">CSS Animations</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-server"></i> Backend</h3>
+            <div class="badges">
+              <span class="badge">Node.js</span>
+              <span class="badge">Express.js</span>
+              <span class="badge">REST APIs</span>
+              <span class="badge">JWT Authentication</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-database"></i> Databases</h3>
+            <div class="badges">
+              <span class="badge">MongoDB</span>
+              <span class="badge">Mongoose</span>
+              <span class="badge">MySQL</span>
+              <span class="badge">Google Sheets</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-cubes"></i> Frameworks &amp; Libraries</h3>
+            <div class="badges">
+              <span class="badge">React.js</span>
+              <span class="badge">Express.js</span>
+              <span class="badge">Mongoose</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Tools &amp; Platforms</h3>
+            <div class="badges">
+              <span class="badge">Git</span>
+              <span class="badge">GitHub</span>
+              <span class="badge">VS Code</span>
+              <span class="badge">Figma</span>
+              <span class="badge">Stitch</span>
+              <span class="badge">Vercel</span>
+              <span class="badge">Google Apps Script</span>
+              <span class="badge">ChatGPT</span>
+              <span class="badge">Claude AI</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal">
+            <h3><i class="fa-solid fa-brain"></i> Core Concepts</h3>
+            <div class="badges">
+              <span class="badge">Data Structures &amp; Algorithms</span>
+              <span class="badge">Problem Solving</span>
+              <span class="badge">OOP</span>
+              <span class="badge">DBMS</span>
+              <span class="badge">Operating Systems</span>
+              <span class="badge">Computer Networks</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE & INTERNSHIP ===================== -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-number">04</span>
+          <h2>Experience &amp; Internship</h2>
+        </div>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Jun 2026 – Aug 2026</span>
+              <h3>Software Development Intern</h3>
+              <p class="card-subtitle"><i class="fa-solid fa-building"></i> Equax Software Labs LLP, Bangalore</p>
+              <ul>
+                <li>Enhanced application features based on mentor feedback and project requirements.</li>
+                <li>Gained exposure to software product development workflows.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Duration: 1 month</span>
+              <h3>Digital Marketer</h3>
+              <p class="card-subtitle"><i class="fa-solid fa-building"></i> Jellysoft</p>
+              <ul>
+                <li>Supported digital marketing activities.</li>
+                <li>Developed an understanding of IT services and client project delivery.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <span class="timeline-date">Jun 2025 – May 2026</span>
+              <h3>Self-Directed Learning &amp; Placement Preparation</h3>
+              <ul>
+                <li>Learned MERN-stack development and built web projects.</li>
+                <li>Practiced DSA and problem solving; revised core computer science subjects.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== FEATURED PROJECTS ===================== -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-number">05</span>
+          <h2>Featured Projects</h2>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-tag">Freelance</span>
+              <h3>JK Herbal E-Commerce Website</h3>
+            </div>
+            <p class="project-desc">
+              A full-stack e-commerce platform for a herbal products business, with the React
+              frontend on Vercel, the Express.js backend on Render and data stored in MongoDB Atlas.
+            </p>
+            <ul class="project-features">
+              <li>Product browsing, cart, order placement and payment section</li>
+              <li>Admin panel for managing products, updating stock and analysing stock levels</li>
+            </ul>
+            <div class="tech-list">
+              <span>React.js</span><span>Express.js</span><span>MongoDB</span><span>MongoDB Atlas</span>
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Vercel</span><span>Render</span>
+            </div>
+            <div class="project-links">
+              <a href="https://jk-herbal-frontend-4xxs.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+              <a href="#" class="btn btn-small btn-outline placeholder-link" data-placeholder="[Add JK Herbal GitHub URL]">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-tag">Freelance</span>
+              <h3>Grill Fabrication Website &amp; Client Management System</h3>
+            </div>
+            <p class="project-desc">
+              A website and client management system for a grill fabrication business. Enquiries are
+              stored in Google Sheets, and clients contact the fabricators directly via WhatsApp.
+            </p>
+            <ul class="project-features">
+              <li>Client enquiries organised in Google Sheets through Google Apps Script</li>
+              <li>Image upload support using local storage; code and images managed on GitHub</li>
+              <li>Designed in Figma and Stitch, refined with ChatGPT and Claude AI</li>
+            </ul>
+            <div class="tech-list">
+              <span>Google Apps Script</span><span>Google Sheets</span><span>Figma</span><span>Stitch</span>
+              <span>ChatGPT</span><span>Claude AI</span><span>Vercel</span><span>GitHub</span>
+            </div>
+            <div class="project-links">
+              <a href="https://grill-work-3.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+              <a href="#" class="btn btn-small btn-outline placeholder-link" data-placeholder="[Add Grill Fabrication GitHub URL]">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-tag">AI-assisted</span>
+              <h3>LinkedIn Profile Audit Website &amp; Lead Capture System</h3>
+            </div>
+            <p class="project-desc">
+              A promotional landing page for a LinkedIn service provider offering profile audits and
+              growth support, with a lead form that feeds enquiries into Google Sheets.
+            </p>
+            <ul class="project-features">
+              <li>Lead form collecting names, email addresses and requested audit sections</li>
+              <li>Submissions connected to Google Sheets via Google Apps Script</li>
+            </ul>
+            <div class="tech-list">
+              <span>Google Apps Script</span><span>Google Sheets</span><span>Figma</span><span>Stitch</span>
+              <span>ChatGPT</span><span>Claude AI</span><span>Vercel</span>
+            </div>
+            <div class="project-links">
+              <a href="https://linkedinprofile-omega.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-small btn-primary">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+              </a>
+              <a href="#" class="btn btn-small btn-outline placeholder-link" data-placeholder="[Add LinkedIn Audit GitHub URL]">
+                <i class="fa-brands fa-github"></i> GitHub
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CERTIFICATIONS & ACHIEVEMENTS ===================== -->
+    <section id="certifications" class="section section-alt">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-number">06</span>
+          <h2>Certifications &amp; Achievements</h2>
+        </div>
+
+        <div class="card-grid two-col">
+          <article class="card reveal">
+            <div class="card-icon"><i class="fa-solid fa-award"></i></div>
+            <h3>warTech'25 &ndash; Web Design</h3>
+            <p class="card-subtitle">APC Mahalaxmi College, Thoothukudi</p>
+          </article>
+
+          <article class="card reveal">
+            <div class="card-icon"><i class="fa-solid fa-link"></i></div>
+            <h3>Online Profiles</h3>
+            <p class="card-subtitle">Professional and coding profiles</p>
+            <div class="profile-links">
+              <a href="#" class="placeholder-link" data-placeholder="[Add LeetCode URL]"><i class="fa-solid fa-code"></i> LeetCode</a>
+              <a href="#" class="placeholder-link" data-placeholder="[Add LinkedIn URL]"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+              <a href="#" class="placeholder-link" data-placeholder="[Add GitHub URL]"><i class="fa-brands fa-github"></i> GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div class="section-header reveal">
+          <span class="section-number">07</span>
+          <h2>Get In Touch</h2>
+          <p class="contact-intro">
+            I am open to software developer, web developer and frontend roles. Send me a message
+            and I will get back to you.
+          </p>
+          <ul class="contact-details">
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:santhiyalingam4@gmail.com">santhiyalingam4@gmail.com</a></li>
+            <li><i class="fa-solid fa-phone"></i> <a href="tel:+918667670512">+91 86676 70512</a></li>
+            <li><i class="fa-solid fa-location-dot"></i> Thoothukudi, Tamil Nadu, India</li>
+          </ul>
+        </div>
+
+        <form id="contactForm" class="contact-form reveal" novalidate>
+          <div class="form-group">
+            <label for="name">Name <span class="required">*</span></label>
+            <input type="text" id="name" name="name" autocomplete="name" placeholder="Your full name" required>
+            <small class="error-msg" id="nameError" aria-live="polite"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email <span class="required">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" placeholder="you@example.com" required>
+            <small class="error-msg" id="emailError" aria-live="polite"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject <span class="required">*</span></label>
+            <input type="text" id="subject" name="subject" placeholder="e.g. Frontend developer role" required>
+            <small class="error-msg" id="subjectError" aria-live="polite"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message <span class="required">*</span></label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            <small class="error-msg" id="messageError" aria-live="polite"></small>
+          </div>
+
+          <button type="submit" class="btn btn-primary btn-full">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+
+          <!-- IMPORTANT: this form only validates the input in the browser.
+               Real email delivery needs a backend or form service, such as an Express.js API,
+               Formspree or EmailJS. See the instructions in the setup guide. -->
+          <p class="form-note">
+            <i class="fa-solid fa-circle-info"></i>
+            Note: this form validates input in the browser only. Real email delivery requires a
+            backend or form service to be connected.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Santhiya. Built with HTML, CSS and JavaScript.</p>
+      <div class="social-links small">
+        <a href="#" class="social-link placeholder-link" data-placeholder="[Add GitHub URL]" aria-label="GitHub (URL to be added)"><i class="fa-brands fa-github"></i></a>
+        <a href="#" class="social-link placeholder-link" data-placeholder="[Add LinkedIn URL]" aria-label="LinkedIn (URL to be added)"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:santhiyalingam4@gmail.com" class="social-link" aria-label="Send email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back-to-top button -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Small popup message used by placeholder links -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
